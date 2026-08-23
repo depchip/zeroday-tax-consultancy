@@ -1,0 +1,277 @@
+.brochure {
+  min-height: 100vh;
+}
+
+/* ── Hero ── */
+.hero {
+  background: linear-gradient(135deg, #064e3b 0%, #10b981 100%);
+  padding: 6rem 2rem 4rem;
+  text-align: center;
+}
+
+.heroContent {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.logoBlock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.logoBlock h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.tagline {
+  font-size: 1.25rem;
+  color: rgba(255, 255, 255, 0.85);
+  margin-bottom: 1.5rem;
+}
+
+.categories {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.7);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+/* ── Container ── */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.sectionTitle {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: var(--foreground);
+}
+
+/* ── About ── */
+.about {
+  padding: 4rem 2rem;
+  background: var(--card);
+}
+
+.aboutText {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.8;
+  color: var(--text-dim);
+  font-size: 1.05rem;
+}
+
+.aboutText strong {
+  color: var(--primary);
+}
+
+/* ── Pillars (Mission / Vision / Values) ── */
+.pillars {
+  padding: 4rem 2rem;
+}
+
+.pillarGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.pillarCard {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 2rem;
+  position: relative;
+  text-align: center;
+}
+
+.pillarNumber {
+  position: absolute;
+  top: 1rem;
+  right: 1.25rem;
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--primary);
+  opacity: 0.25;
+}
+
+.pillarIcon {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: rgba(16, 185, 129, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary);
+  margin: 0 auto 1rem;
+}
+
+.pillarCard h3 {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.pillarCard p {
+  font-size: 0.92rem;
+  line-height: 1.6;
+  color: var(--text-dim);
+}
+
+/* ── Accreditations ── */
+.accreditations {
+  padding: 3.5rem 2rem;
+  background: var(--card);
+}
+
+.accredText {
+  text-align: center;
+  color: var(--text-dim);
+  margin-bottom: 2rem;
+}
+
+.accredGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.accredBadge {
+  padding: 0.5rem 1.25rem;
+  border: 1px solid var(--primary);
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--primary);
+  background: rgba(16, 185, 129, 0.08);
+}
+
+/* ── Services ── */
+.services {
+  padding: 4rem 2rem;
+}
+
+.serviceGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 2rem;
+}
+
+.serviceColumn {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.5rem;
+}
+
+.serviceCategory {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--primary);
+  margin-bottom: 1rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 2px solid var(--primary);
+}
+
+.serviceColumn ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.serviceColumn li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+  line-height: 1.4;
+  color: var(--text-dim);
+}
+
+.serviceColumn li svg {
+  flex-shrink: 0;
+  margin-top: 2px;
+  color: var(--primary);
+}
+
+/* ── Contact ── */
+.contact {
+  padding: 4rem 2rem;
+  background: var(--card);
+  text-align: center;
+}
+
+.contactGrid {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin-bottom: 2rem;
+}
+
+.contactItem {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1rem;
+  color: var(--text-dim);
+}
+
+.contactItem svg {
+  color: var(--primary);
+}
+
+.contactItem a {
+  color: var(--primary);
+}
+
+.contactItem a:hover {
+  text-decoration: underline;
+}
+
+.downloadBtn {
+  display: inline-block;
+  padding: 0.75rem 2rem;
+  background: var(--primary);
+  color: #fff;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: background 0.2s;
+}
+
+.downloadBtn:hover {
+  background: var(--primary-hover);
+}
+
+/* ── Responsive ── */
+@media (max-width: 640px) {
+  .logoBlock h1 {
+    font-size: 1.75rem;
+  }
+
+  .sectionTitle {
+    font-size: 1.4rem;
+  }
+
+  .contactGrid {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .serviceGrid {
+    grid-template-columns: 1fr;
+  }
+}
