@@ -46,3 +46,32 @@
 .cta:hover {
   background: var(--primary-hover);
 }
+
+@media (max-width: 768px) {
+  .section {
+    padding: 6rem 0;
+  }
+  
+  .title {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .section {
+    padding: 4rem 0;
+  }
+  
+  .title {
+    font-size: 1.75rem;
+  }
+  
+  .text {
+    font-size: 0.95rem;
+  }
+  
+  .cta {
+    width: 100%;
+    padding: 0.8rem 1.5rem;
+  }
+}

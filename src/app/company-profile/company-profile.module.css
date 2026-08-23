@@ -495,12 +495,20 @@
 
 /* ── Responsive ── */
 @media (max-width: 768px) {
+  .hero {
+    padding: 4rem 1.5rem 3rem;
+  }
+
   .logoBlock h1 {
-    font-size: 1.75rem;
+    font-size: 2rem;
+  }
+  
+  .tagline {
+    font-size: 1.1rem;
   }
 
   .sectionTitle {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
   }
 
   .aboutGrid {
@@ -514,7 +522,7 @@
   .contactGrid {
     flex-direction: column;
     align-items: center;
-    gap: 1rem;
+    gap: 1.5rem;
   }
 
   .overviewGrid {
@@ -523,5 +531,25 @@
 
   .serviceHeader h2 {
     font-size: 1.25rem;
+  }
+  
+  .missionVision, .about, .coreValues, .history, .compliance, .experience, .contact {
+    padding: 3rem 1.25rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .logoBlock h1 {
+    font-size: 1.75rem;
+  }
+  
+  .heroCtas {
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .primaryBtn, .secondaryBtn {
+    width: 100%;
+    text-align: center;
   }
 }

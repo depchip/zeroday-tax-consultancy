@@ -256,6 +256,20 @@
 }
 
 /* ── Responsive ── */
+@media (max-width: 768px) {
+  .hero {
+    padding: 4rem 1.5rem 3rem;
+  }
+  
+  .logoBlock h1 {
+    font-size: 2rem;
+  }
+  
+  .tagline {
+    font-size: 1.1rem;
+  }
+}
+
 @media (max-width: 640px) {
   .logoBlock h1 {
     font-size: 1.75rem;
@@ -273,5 +287,9 @@
 
   .serviceGrid {
     grid-template-columns: 1fr;
+  }
+  
+  .about, .pillars, .services, .contact {
+    padding: 3rem 1.25rem;
   }
 }

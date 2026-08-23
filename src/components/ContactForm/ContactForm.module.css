@@ -1,7 +1,7 @@
 .section {
   padding: 6rem 0;
   border-top: 1px solid var(--border);
-  scroll-margin-top: 76px;
+  scroll-margin-top: var(--nav-height);
 }
 
 .container {
@@ -112,11 +112,31 @@
   text-align: center;
 }
 
+@media (max-width: 768px) {
+  .section {
+    padding: 4rem 0;
+  }
+  
+  .heading {
+    font-size: 1.75rem;
+  }
+  
+  .form {
+    padding: 2rem;
+  }
+}
+
 @media (max-width: 560px) {
+  .heading {
+    font-size: 1.5rem;
+  }
+  
   .row {
     grid-template-columns: 1fr;
   }
+  
   .form {
-    padding: 1.75rem;
+    padding: 1.5rem;
+    gap: 1rem;
   }
 }

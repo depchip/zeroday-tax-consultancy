@@ -4,7 +4,7 @@
   overflow: hidden;
   padding: 5rem 0 5rem;
   background: radial-gradient(circle at 50% -20%, #10b98122, transparent 50%);
-  scroll-margin-top: 76px;
+  scroll-margin-top: var(--nav-height);
 }
 
 .hero::before {
@@ -198,13 +198,38 @@
 }
 
 @media (max-width: 768px) {
+  .hero {
+    padding: 3rem 0 4rem;
+  }
   .itemGrid {
     grid-template-columns: 1fr;
   }
   .features {
     grid-template-columns: 1fr;
+    gap: 1rem;
   }
   .ctaGroup {
     flex-direction: column;
+    width: 100%;
+  }
+  .primaryCta, .secondaryCta {
+    width: 100%;
+    text-align: center;
+  }
+  .tabsWrapper {
+    padding: 1rem;
+  }
+  .tab {
+    padding: 0.5rem 1rem;
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 1.85rem;
+  }
+  .subtitle {
+    font-size: 1rem;
   }
 }

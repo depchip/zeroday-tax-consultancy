@@ -4,7 +4,7 @@
   overflow: hidden;
   padding: 6rem 0;
   border-top: 1px solid var(--border);
-  scroll-margin-top: 76px;
+  scroll-margin-top: var(--nav-height);
 }
 
 .section::before {
@@ -169,7 +169,35 @@
 }
 
 @media (max-width: 992px) {
+  .section {
+    padding: 4rem 0;
+  }
+  
+  .sectionTitle {
+    font-size: 1.85rem;
+  }
+  
   .grid {
     grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .card {
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .sectionTitle {
+    font-size: 1.6rem;
+  }
+  
+  .cardHeading {
+    font-size: 1.2rem;
+  }
+  
+  .table th, .table td {
+    padding: 0.75rem 0.5rem;
+    font-size: 0.8rem;
   }
 }
