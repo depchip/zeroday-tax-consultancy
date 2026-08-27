@@ -98,11 +98,6 @@ export default function WithholdingTaxCalculator() {
         <p className={styles.noteBox}>{selectedRate.note}</p>
       )}
 
-      <p className={styles.disclaimer}>
-        Rates are illustrative placeholders configured in <code>src/data/taxRates.ts</code> —
-        update them against the current FBR Withholding Tax Card before relying on this
-        calculator.
-      </p>
     </div>
   );
 }

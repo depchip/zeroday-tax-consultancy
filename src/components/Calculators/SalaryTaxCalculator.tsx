@@ -75,10 +75,6 @@ export default function SalaryTaxCalculator() {
         </table>
       </div>
 
-      <p className={styles.disclaimer}>
-        Based on the salary tax slabs configured in <code>src/data/taxRates.ts</code>. Verify
-        against the latest FBR notification before relying on this for filing.
-      </p>
     </div>
   );
 }
