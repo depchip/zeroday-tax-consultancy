@@ -1,3 +1,3 @@
-:HL["/_next/static/chunks/2hmsjut8t_10s.css","style"]
-:HL["/_next/static/chunks/2hsk-vs7-8mnt.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":4112,"slots":{"children":{"name":"faas","param":null,"prefetchHints":4160,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"Wh2br9UFNSZq5OaULB5sJ"}
+:HL["/zeroday-tax-consultancy/_next/static/chunks/0gi69qtt8cnxi.css","style"]
+:HL["/zeroday-tax-consultancy/_next/static/chunks/1sqv_agclaiux.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":4112,"slots":{"children":{"name":"faas","param":null,"prefetchHints":4160,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"3vj2lsVMnM-26aSlAa2o4"}
