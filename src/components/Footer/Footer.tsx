@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Shield, MapPin, Phone, Mail } from 'lucide-react';
+import { Shield, MapPin, Mail } from 'lucide-react';
 import { FacebookIcon, TwitterIcon, LinkedInIcon } from './SocialIcons';
 import styles from './Footer.module.css';
 
@@ -71,20 +71,8 @@ export default function Footer() {
                 <span>Karachi, Pakistan</span>
               </li>
               <li className={styles.contactItem}>
-                <Phone size={16} />
-                <span>+92 300 1234567</span>
-              </li>
-              <li className={styles.contactItem}>
                 <Mail size={16} />
-                <span>info@zerodaytax.pk</span>
-              </li>
-              <li className={styles.contactItem}>
-                <Mail size={16} />
-                <span>tax@zerodaytax.pk</span>
-              </li>
-              <li className={styles.contactItem}>
-                <Mail size={16} />
-                <span>hr@zerodaytax.pk</span>
+                <span>hello@zeroday-tax-consultancy.com</span>
               </li>
             </ul>
           </div>

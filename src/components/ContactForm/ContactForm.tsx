@@ -6,7 +6,7 @@ import styles from './ContactForm.module.css';
 // Set this to a Formspree (or other) form endpoint to wire up real email
 // delivery, e.g. "https://formspree.io/f/xxxxxxx". Left empty, the form
 // validates and shows a success state without sending anything anywhere.
-const FORM_ENDPOINT = '';
+const FORM_ENDPOINT = 'https://formspree.io/f/xppzagde';
 
 interface FormState {
   name: string;

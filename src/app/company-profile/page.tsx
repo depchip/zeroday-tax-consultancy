@@ -14,7 +14,6 @@ import {
   Award,
   Users,
   Building2,
-  Phone,
   Mail,
   MapPin,
   ChevronRight,
@@ -386,12 +385,8 @@ export default function CompanyProfilePage() {
               <span>Karachi, Pakistan</span>
             </div>
             <div className={styles.contactItem}>
-              <Phone size={20} />
-              <span>+92 300 1234567</span>
-            </div>
-            <div className={styles.contactItem}>
               <Mail size={20} />
-              <span>info@zerodaytax.pk</span>
+              <span>hello@zeroday-tax-consultancy.com</span>
             </div>
           </div>
           <Link href="/#contact" className={styles.primaryBtn}>

@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { Shield, Target, Rocket, Heart, Phone, Mail, CheckCircle2, MapPin } from 'lucide-react';
+import { Shield, Target, Rocket, Heart, Mail, CheckCircle2, MapPin } from 'lucide-react';
 import styles from './brochure.module.css';
 
 export const metadata: Metadata = {
@@ -193,12 +193,8 @@ export default function BrochurePage() {
               <span>Karachi, Pakistan</span>
             </div>
             <div className={styles.contactItem}>
-              <Phone size={20} />
-              <span>+92 300 1234567</span>
-            </div>
-            <div className={styles.contactItem}>
               <Mail size={20} />
-              <span>info@zerodaytax.pk</span>
+              <span>hello@zeroday-tax-consultancy.com</span>
             </div>
           </div>
           <Link href="/#contact" className={styles.downloadBtn}>
