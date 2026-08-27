@@ -202,9 +202,9 @@ export default function CompanyProfilePage() {
             <Link href="/#contact" className={styles.primaryBtn}>
               Get in Touch
             </Link>
-            <Link href="/brochure" className={styles.secondaryBtn}>
+            <a href="/downloads/zeroday-brochure.pdf" target="_blank" rel="noopener noreferrer" className={styles.secondaryBtn}>
               View Brochure
-            </Link>
+            </a>
           </div>
         </div>
       </section>

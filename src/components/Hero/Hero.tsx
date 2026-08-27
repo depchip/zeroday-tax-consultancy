@@ -106,7 +106,7 @@ export default function Hero() {
 
         <div className={styles.ctaGroup}>
           <Link href="/#contact" className={styles.primaryCta}>Get Started</Link>
-          <a href="/brochure" className={styles.secondaryCta}>View Brochure</a>
+          <a href="/downloads/zeroday-brochure.pdf" target="_blank" rel="noopener noreferrer" className={styles.secondaryCta}>View Brochure</a>
         </div>
       </div>
     </section>

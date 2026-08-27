@@ -81,9 +81,9 @@ export default function Navbar() {
             <Link href="/company-profile" className={styles.ghostButton} onClick={closeAll}>
               <FileText size={16} /> Company Profile
             </Link>
-            <Link href="/brochure" className={styles.ctaButton} onClick={closeAll}>
+            <a href="/downloads/zeroday-brochure.pdf" target="_blank" rel="noopener noreferrer" className={styles.ctaButton} onClick={closeAll}>
               <BookOpen size={16} /> Brochure
-            </Link>
+            </a>
           </div>
         </div>
 
@@ -91,9 +91,9 @@ export default function Navbar() {
           <Link href="/company-profile" className={styles.ghostButton}>
             Company Profile
           </Link>
-          <Link href="/brochure" className={styles.ctaButton}>
+          <a href="/downloads/zeroday-brochure.pdf" target="_blank" rel="noopener noreferrer" className={styles.ctaButton}>
             Brochure
-          </Link>
+          </a>
         </div>
 
         <button

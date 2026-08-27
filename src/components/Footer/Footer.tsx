@@ -36,7 +36,7 @@ export default function Footer() {
               <li><Link href="/#about" className={styles.link}>About</Link></li>
               <li><Link href="/career" className={styles.link}>Career</Link></li>
               <li><Link href="/company-profile" className={styles.link}>Company Profile</Link></li>
-              <li><Link href="/brochure" className={styles.link}>Services Brochure</Link></li>
+              <li><a href="/downloads/zeroday-brochure.pdf" target="_blank" rel="noopener noreferrer" className={styles.link}>Services Brochure</a></li>
             </ul>
           </div>
 
